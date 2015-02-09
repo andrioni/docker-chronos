@@ -19,6 +19,6 @@ RUN git checkout 09416a5cb882fd83b9996039a7b21fd747c08f6a
 
 RUN mvn clean package
 
-EXPOSE 8081
+EXPOSE 8080
 
 ENTRYPOINT ["bin/start-chronos.bash"]
