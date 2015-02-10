@@ -1,4 +1,4 @@
-FROM thefactory/mesos:0.20.0
+FROM andrioni/mesos:0.21.0
 
 MAINTAINER Alessandro Andrioni <alessandro.andrioni@dafiti.com.br>
 
