@@ -11,11 +11,11 @@ RUN apt-get install -y maven \
     git
 
 # Clone the Chronos repo
-RUN git clone https://github.com/mesos/chronos.git
+RUN git clone https://github.com/andrioni/chronos.git
 
 WORKDIR /chronos
 
-RUN git checkout 09416a5cb882fd83b9996039a7b21fd747c08f6a
+RUN git checkout dafiti
 
 RUN mvn clean package
 
